@@ -22,13 +22,13 @@ There are two ways to use the Digital Product Factory: install it on your instan
 1. In the upper right-hand corner of the page, you should see a button to fork the repo. Click to create your fork
 1. Create a ServiceNow Credential - if you have a GitHub credential for ServiceNow, skip this step
     - Go to https://github.com/settings/tokens, and under Tokens (classic), click on "Generate new token"
-         - Select Expiration (make a note of when to change)
-	 - Select the following 'scopes':
-           - workflow
-           - write:packages
-           - write:discussion
-           - project
-    	- "Generate Token"
+        - Select Expiration (make a note of when to change)
+	- Select the following 'scopes':
+        - workflow 
+        - write:packages
+        - write:discussion
+        - project
+    - "Generate Token" 
     - Copy the token you generated; you'll need it in the next step
     - In the ServiceNow Navigator, go to "Connections & Credentials" -> "Credentials"
     - Click on "New" to create a new credential
