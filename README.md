@@ -22,6 +22,13 @@ There are two ways to use the Digital Product Factory: install it on your instan
 1. In the upper right-hand corner of the page, you should see a button to fork the repo. Click to create your fork
 1. Create a ServiceNow Credential - if you have a GitHub credential for ServiceNow, skip this step
     - Go to https://github.com/settings/tokens, and under Tokens (classic), click on "Generate new token"
+         - Select Expiration (make a note of when to change)
+	 - Select the following 'scopes':
+           - workflow
+           - write:packages
+           - write:discussion
+           - project
+    	- "Generate Token"
     - Copy the token you generated; you'll need it in the next step
     - In the ServiceNow Navigator, go to "Connections & Credentials" -> "Credentials"
     - Click on "New" to create a new credential
@@ -40,9 +47,9 @@ There are two ways to use the Digital Product Factory: install it on your instan
 		- **Sc_category:** https://[your_instance].service-now.com/now/nav/ui/classic/params/target/sys_db_object.do%3Fsys_id%3Dsc_category%26sysparm_refkey%3Dname
 		- **Sc_cat_item:** https://[your_instance].service-now.com/now/nav/ui/classic/params/target/sys_db_object.do%3Fsys_id%3Dsc_cat_item%26sysparm_refkey%3Dname
 		- **Sc_cat_item_category:** https://[your_instance].service-now.com/now/nav/ui/classic/params/target/sys_db_object.do%3Fsys_id%3Dsc_cat_item_category%26sysparm_refkey%3Dname
-1. Access the Employee Service Center - [your instance]/esc
+1. Access the Employee Service Center - [your instance]/ecdemo
 	- Click on the "Digital Factory Services" topic
-	- Select the "Digital Product Factory for Government Agencies" catalog item
+	- Select the "Digital Product Factory for Public Factory" catalog item
  	  Note: You can not run the Digital Product Factories until you have installed at least one template
 1. See the "Installing Factory Templates" section for your Industry
 
